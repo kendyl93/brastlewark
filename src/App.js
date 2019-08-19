@@ -242,7 +242,7 @@ class App extends Component {
           <div className="main-box">
             <div className="main-box-inner">
               <Switch>
-                <Redirect exact from="/brastlewark" to="/" />
+                <Redirect from="/brastlewark" to="/" />
                 <Route
                   exact
                   path="/"
