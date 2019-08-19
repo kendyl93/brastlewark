@@ -36,7 +36,7 @@ const ErrorPage = () => (
       <img id="error-gnome" src={error} height={400} alt="Error Gnome" />
       <p>
         What are you looking for here ? Let's back to{' '}
-        <Link to="/">
+        <Link to="/brastlewark">
           <strong>citizens...</strong>
         </Link>
       </p>

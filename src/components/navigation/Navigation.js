@@ -67,7 +67,7 @@ const Navigation = ({ onClose, mobileView }) => (
       </AppNameBox>
       <NavigationList>
         <li>
-          <Link to="/" onClick={mobileView && onClose}>
+          <Link to="/brastlewark" onClick={mobileView && onClose}>
             <UsersIcon />
             <NavigationElement>Citizens</NavigationElement>
           </Link>

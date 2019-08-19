@@ -242,10 +242,9 @@ class App extends Component {
           <div className="main-box">
             <div className="main-box-inner">
               <Switch>
-                <Redirect from="/brastlewark" to="/" />
                 <Route
                   exact
-                  path="/"
+                  path="/brastlewark"
                   component={() =>
                     this.renderHome(data, mobileView, existingFavourites)
                   }
