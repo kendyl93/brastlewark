@@ -1,14 +1,14 @@
 {
-  "main.css": "/braslewark/static/css/main.c5f364b7.chunk.css",
-  "main.js": "/braslewark/static/js/main.7fa5aa16.chunk.js",
-  "main.js.map": "/braslewark/static/js/main.7fa5aa16.chunk.js.map",
-  "runtime~main.js": "/braslewark/static/js/runtime~main.2f167bd9.js",
-  "runtime~main.js.map": "/braslewark/static/js/runtime~main.2f167bd9.js.map",
-  "static/js/2.9acf83d4.chunk.js": "/braslewark/static/js/2.9acf83d4.chunk.js",
-  "static/js/2.9acf83d4.chunk.js.map": "/braslewark/static/js/2.9acf83d4.chunk.js.map",
-  "index.html": "/braslewark/index.html",
-  "precache-manifest.f6216ad8b937a5de06f77533b10c407e.js": "/braslewark/precache-manifest.f6216ad8b937a5de06f77533b10c407e.js",
-  "service-worker.js": "/braslewark/service-worker.js",
-  "static/css/main.c5f364b7.chunk.css.map": "/braslewark/static/css/main.c5f364b7.chunk.css.map",
-  "static/media/error.png": "/braslewark/static/media/error.39bd5956.png"
+  "main.css": "./static/css/main.c5f364b7.chunk.css",
+  "main.js": "./static/js/main.7b8039f2.chunk.js",
+  "main.js.map": "./static/js/main.7b8039f2.chunk.js.map",
+  "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
+  "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
+  "static/js/2.0459945b.chunk.js": "./static/js/2.0459945b.chunk.js",
+  "static/js/2.0459945b.chunk.js.map": "./static/js/2.0459945b.chunk.js.map",
+  "index.html": "./index.html",
+  "precache-manifest.ee84a68b76f5464b595d496fe6fbaf67.js": "./precache-manifest.ee84a68b76f5464b595d496fe6fbaf67.js",
+  "service-worker.js": "./service-worker.js",
+  "static/css/main.c5f364b7.chunk.css.map": "./static/css/main.c5f364b7.chunk.css.map",
+  "static/media/error.png": "./static/media/error.39bd5956.png"
 }
