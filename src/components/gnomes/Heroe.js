@@ -105,7 +105,7 @@ const renderHeroe = (
       mobileView={mobileView}
       className="row-inner mobile-text-center"
     >
-      <Link to={`/gnome/${id}`} className="row-margin">
+      <Link to={`/brastlewark/gnome/${id}`} className="row-margin">
         <div>
           {thumbnail ? (
             <img src={thumbnail} alt={name} height="100px" width="100px" />

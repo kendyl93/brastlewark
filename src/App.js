@@ -2,7 +2,7 @@ import React, { Fragment, Component } from 'react';
 import './App.scss';
 import { API_URL } from './config';
 import Heroes from './components/gnomes/Heroes';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import GnomeAccount from './components/gnomes/GnomeAccount';
 import Navigation from './components/navigation/Navigation';
 import Backdrop from './components/navigation/Backdrop';
@@ -250,7 +250,7 @@ class App extends Component {
                   }
                 />
                 <Route
-                  path="/gnome/:id"
+                  path="/brastlewark/gnome/:id"
                   component={props =>
                     this.renderGnomeAccount(
                       data,
@@ -261,11 +261,11 @@ class App extends Component {
                   }
                 />
                 <Route
-                  path="/statistics"
+                  path="/brastlewark/statistics"
                   component={() => this.renderStatistics(data, mobileView)}
                 />
                 <Route
-                  path="/favourites"
+                  path="/brastlewark/favourites"
                   component={() =>
                     this.renderFavourites(
                       list,

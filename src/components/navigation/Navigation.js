@@ -67,19 +67,19 @@ const Navigation = ({ onClose, mobileView }) => (
       </AppNameBox>
       <NavigationList>
         <li>
-          <Link to="/brastlewark" onClick={mobileView && onClose}>
+          <Link to="/brastlewark/brastlewark" onClick={mobileView && onClose}>
             <UsersIcon />
             <NavigationElement>Citizens</NavigationElement>
           </Link>
         </li>
         <li>
-          <Link to="/statistics" onClick={mobileView && onClose}>
+          <Link to="/brastlewark/statistics" onClick={mobileView && onClose}>
             <PieChartIcon />
             <NavigationElement>Statistics</NavigationElement>
           </Link>
         </li>
         <li>
-          <Link to="/favourites" onClick={mobileView && onClose}>
+          <Link to="/brastlewark/favourites" onClick={mobileView && onClose}>
             <HeartIcon />
             <NavigationElement>favourites</NavigationElement>
           </Link>
