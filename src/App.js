@@ -2,7 +2,7 @@ import React, { Fragment, Component } from 'react';
 import './App.scss';
 import { API_URL } from './config';
 import Heroes from './components/gnomes/Heroes';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import GnomeAccount from './components/gnomes/GnomeAccount';
 import Navigation from './components/navigation/Navigation';
 import Backdrop from './components/navigation/Backdrop';
@@ -242,6 +242,7 @@ class App extends Component {
           <div className="main-box">
             <div className="main-box-inner">
               <Switch>
+                <Redirect exact from="/brastlewark" to="/" />
                 <Route
                   exact
                   path="/"
