@@ -1,5 +1,7 @@
 # APP
 
+**App was created to take part in previous recrutation process purposes**
+
 I created the app with `create-react-app` to avoid configuration to start react project. I would like to start shortly, so I think it will be better to help myself with the starting boilerplate.
 
 ## Installed packages
